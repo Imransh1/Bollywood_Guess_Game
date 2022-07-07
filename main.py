@@ -32,7 +32,6 @@ def print_current_state_of_game(current_word_state,chances_remaining):
 def playgame(attempts = 5):
     # it will start the game and contains main logic of the game and default attempts are given as 3
     selected_movie = movie.upper()
-    print(selected_movie)
     # it will store imported movie name in a variable
     if len(selected_movie) > 10 and  len(selected_movie) <= 15:
         attempts = attempts + 1
